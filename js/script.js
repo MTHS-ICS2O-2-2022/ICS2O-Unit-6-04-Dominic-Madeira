@@ -19,5 +19,5 @@ window.onload = function() {
 
   // output
   document.getElementById('radius').innerHTML = "The radius is: " + radius + ' mm'
-  document.getElementById('volume').innerHTML = 'The volume is: ' + volume + ' mm³'
+  document.getElementById('volume').innerHTML = 'The volume is: ' + volume.toFixed(2) + ' mm³'
 }
